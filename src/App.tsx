@@ -9,8 +9,8 @@ import { HelloService } from "./HelloService";
 import { IProperties } from "./Interfaces/IProperties";
 
 class App extends React.Component<IProperties> {
-  constructor (props: any) {
-    super (props);
+  constructor(props: any) {
+    super(props);
     new HelloService();
   }
 
@@ -23,7 +23,7 @@ class App extends React.Component<IProperties> {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -31,12 +31,11 @@ class App extends React.Component<IProperties> {
             rel="noopener noreferrer"
           >
             Learn React
-        </a>
+          </a>
         </header>
-
       </Provider>
     </div>
-  );
+    );
   }
 };
 
